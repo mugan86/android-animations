@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
 
         int [] buttons_ids = { R.id.blinkButton, R.id.moveButton, R.id.fadeInButton, R.id.fadeOutButton,
                 R.id.rotateButton, R.id.secuentialButton, R.id.zoomInButton, R.id.zoomOutButton, R.id.slideUpButton,
-                R.id.slideDownButton, R.id.randomAnimation, R.id.bounceButton
+                R.id.slideDownButton, R.id.bounceButton, R.id.randomAnimation
         };
         final int [] animations = {R.anim.blink, R.anim.move, R.anim.fadein, R.anim.fadeout, R.anim.rotate, R.anim.secuential, R.anim.zoomin, R.anim.zoomout,
-                                R.anim.slide_up, R.anim.slide_down, R.anim.move, R.anim.bounce};
+                                R.anim.slide_up, R.anim.slide_down, R.anim.bounce, R.anim.secuential};
         animationButtons = new Button[buttons_ids.length];
         for (int i = 0; i < animationButtons.length; i++)
         {
